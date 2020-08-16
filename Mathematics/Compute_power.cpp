@@ -1,7 +1,6 @@
 // Program to print prime factors of a number 
 #include<bits/stdc++.h>
 using namespace std;
-#define f(i,n) for(int i=3;i<=sqrt(n);i++)
 #define ll long long
 const int MOD = 1e9+7;
 ll compute_power(ll x,ll n)
