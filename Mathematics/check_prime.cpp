@@ -9,6 +9,8 @@ const int MIN = INT_MIN;
 const int MOD = 1e9+7;
 int isPrime(ll n)
 {
+    if(n==2||n==3)
+    return 1;
     if(n%2==0||n%3==0)
     return -1;
     f(i,n)
