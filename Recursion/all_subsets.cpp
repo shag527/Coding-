@@ -1,4 +1,4 @@
-//Program to check if a string is a palindrome
+//Program to prints all subsets of a string
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
