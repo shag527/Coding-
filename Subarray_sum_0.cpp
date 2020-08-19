@@ -1,4 +1,4 @@
-//Program to check if there is a subarray with 0 sum
+//Program to check if there is a subarray with 0 sum in an array
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
