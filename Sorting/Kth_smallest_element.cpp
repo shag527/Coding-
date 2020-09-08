@@ -1,4 +1,4 @@
-// Program to find inversions in an array i.e i<j and arr[j]>arr[i]
+// Program to find the Kth smallest element in an array
 
 #include<bits/stdc++.h>
 using namespace std;
