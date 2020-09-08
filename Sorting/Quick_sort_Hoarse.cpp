@@ -1,4 +1,4 @@
-// Program to find inversions in an array i.e i<j and arr[j]>arr[i]
+// Program to sort an array using hoarse partition of quick sort
 
 #include<bits/stdc++.h>
 using namespace std;
