@@ -37,12 +37,27 @@ class linkedlist{
     }
     bool detect_loop(linkedlist *root)
     {
+        int flag=0;
         linkedlist *slow=root,*fast=root;
         while(fast->next!=NULL&&slow!=NULL)
         {
             slow=slow->next;
             fast=fast->next->next;
             if(slow==fast)
+            {
+                flag=1;
+                break;
+            }
+        }
+        slow=root;
+        if(flag)
+        {
+            while(slow->next!=fast->next)
+            {
+                slow=slow->next;
+                fast=fast->next;
+            }
+            fast->next=NULL;
             return true;
         }
         return false;
