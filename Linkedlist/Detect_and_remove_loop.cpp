@@ -1,4 +1,4 @@
-// Program to reverse linked list in groups of k
+// Program to detect and remove loop in a linkedlist
 
 #include<bits/stdc++.h>
 using namespace std;
